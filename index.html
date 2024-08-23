@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    */
+    .Container
+    {
+      display: grid;
+      width: 748px;
+      height: 748px;
+      border: 1px solid black;
+      grid-template-columns: 320px 9px 419px;
+      grid-template-rows: 414px 9px 295px 9px 20px;
+      
+      
+
+    }
+
+    .item_Red 
+    {
+      background-color: #E72F24;
+    }
+
+    .item_Black_1
+    {
+      background-color: #232629;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 6;
+    }
+    
+    .item_Black_2
+    {
+      background-color: #232629;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    .item_Black_3
+    {
+      background-color: #232629;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 4;
+      grid-row-end: 5;
+    }
+   
+    .item_Block5
+    { 
+      /* background-color: pink; */
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      display: grid;
+      grid-template-columns: 360px 9px 50px;
+      grid-template-rows: 130px 10px 155px;
+    }
+
+    .item_Blue
+    { 
+      background-color: #004592 ;
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+
+    .item_Black1 
+    {
+      background-color:#232629;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 4;
+    }
+
+    .item_Black2 
+    {
+      background-color:#232629;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    .item_Block7
+    { 
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      display: grid;
+      background-color: pink;
+      grid-template-columns: 198px 9px 153px 9px 1fr ;
+      grid-template-rows: 1fr;
+      
+    }
+    
+    .item_Yellow
+    {
+       background-color: #F9D01E ;
+    }
+     
+    .item_black3
+    {
+     background-color:#232629 ;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 2;
+    } 
+
+    .item_black4
+    {
+      background-color: #000 ;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .item_black5
+    {
+      background-color: #232629;
+    }
+  
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div  class="Container">
+    <div class="item_Red"> </div>
+    <div class="item_Black_1"> </div>
+    <div class="item_Black_2"> </div>
+    <div class="item_Black_3"> </div>
+
+    <div class="item_Block5">
+      <div class="item_Blue"> </div>
+      <div class="item_Black1"> </div>
+      <div class="item_Black2"> </div>
+      
+    </div>
+
+    <div class="item_Block7">
+        <div class="item_Yellow"></div>
+        <div class="item_black3"></div>
+        <div class="item_black4"></div>
+        <div class="item_black5"></div>
+    </div>
+      
+    </div>
+  </div>
+</body>
+
+</html>
